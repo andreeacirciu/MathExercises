@@ -15,6 +15,7 @@ public class App {
         System.out.println("Enter the second number:");
         int secondNumber = scanner.nextInt();
 
+
         System.out.println("The sum of the numbers is:");
         Sum sum = new Sum();
         sum.sum(firstNumber, secondNumber);
@@ -32,6 +33,7 @@ public class App {
         Division division = new Division();
         division.division(firstNumber, secondNumber);
     }
+
 }
 
 
